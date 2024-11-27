@@ -58,7 +58,7 @@ function verificarCombinacao(){
 
 function verificarVitoria(){
 
-    if (document.querySelectorAll("cartaCombinada").length === emojis.length){
+    if (document.querySelectorAll(".cartaCombinada").length === emojis.length){
         alert("Você venceu! Eita que memória boa!");
     }
 }
